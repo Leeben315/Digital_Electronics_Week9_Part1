@@ -10,7 +10,7 @@ BetterButton button2(button2Pin, 1);
 BetterButton button3(button3Pin, 2);
 BetterButton button4(button4Pin, 3);
 
-int midiNotes[4] = { 60, 64, 67, 71};
+int midiNotes[4] = { 60, 63, 67, 70};
 
 void setup() {
   Serial.begin(9600);
